@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #b90415;
+    --primary-color-hover: #d3071b;
+    --secondary-color: #103063;
+    --secondary-color-hover: #143f85;
+    --light-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* header */
+
+header {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+/* navbar */
+
+nav {
+    background-color: rgb(51, 34, 34);
+    /* height: 40px; */
+    width: 100%;
+    position: fixed;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    font-size: 28px;
+    padding: 14px 30px 10px;
+    line-height: 2.3;
+    letter-spacing: 0.007em;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}
+
+.container {
+    background: red url(../img/showcase.jpeg) no-repeat scroll top center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.section-main h1 {
+    font-size: 72px;
+    padding-top: 180px;
+}
+
+.section-main h2 {
+    padding: 3.3em;
+    font-size: 30px;
+}
+
+.section-main p {
+    padding: 0.3em 10vw;
+    font-size: 25px;
+}
+
+h1, h2, p {
+    padding-bottom: 22px;
+}
+
+/* main */
+
+main {
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.section {
+    height: auto;
+    width: 100vw;
+    background-color: rgb(165, 28, 28);
+    /* padding: 0 10vw; */
+}
+
+#Music {
+    background-color: rgb(133, 133, 133);
+}
+
+#Music h1 {
+    font-size: 2.5rem;
+    padding-top: 35px;
+}
+
+#Music h1 i {
+    padding: 0px 15px;
+}
+
+#Music h2 {
+    font-size: 2rem;
+    padding: 3vh 10vw;
+}
+
+#Music p {
+    padding: 0 10vw;
+    font-size: 23px;
+    line-height: 1.4;
+    font-size: 29px;
+    line-height: 1.6;
+    letter-spacing: 0.041em;
+}
+
+.btn {
+    padding: 1rem;
+    color: #fff;
+    display: inline-block;
+    margin: 25px 0px;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-hover);
+}
+
+small {
+    display: block;
+    font-size: 18px;
+    padding: 0 10vw 3vw;
+}
+
+img {
+    width: 80%;
+    padding-bottom: 5vh;
+}
+
+#video {
+    background-color: white;
+    color: black;
+}
+
+#video h3 {
+    padding: 50px 10vw 30px;
+    font-size: 32px;
+    line-height: 1.3;
+    letter-spacing: 0.024em;
+}
+
+#video p {
+    font-size: 1.5rem;
+    padding: 5px 10vw;
+    line-height: 1.6em;
+}
+
+#entertainment {
+    background: #d3071b url(../img/milky-way-4526277.jpg) no-repeat scroll center;
+    height: auto;
+    width: 100%;
+    padding: 0 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#entertainment h3, #entertainment p {
+    padding: 40px 10vw;
+    font-size: 35px;
+    line-height: 1.5;
+    letter-spacing: 0.114em;
+}
+
+#entertainment h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.gift-card {
+    background-color: white;
+    color: black;
+    padding: 5px 10vw;
+    text-align: initial;
+}
+
+.gift-card img {
+    padding: 2vh 2vw;
+    grid-column: 1/4;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.gift-card div {
+    grid-column: 4/7;
+}
+
+.gift-card div h3 {
+    padding: 24px;
+    padding-left: 24px;
+    padding-left: 0;
+    font-size: 29px;
+    grid-column: 4/7;
+}
+.gift-card div p{
+font-size: 20px;
+letter-spacing: 0.103em;
+}
+
+.gift-card div a{
+    color: #143f85;
+}
+
+.gift-card div a i{
+    padding-right: 7px
+}
+
+footer{
+    background-color: #444;
+    color: #fff;
+}
+
+.footcontainer{
+    max-width: 85vw;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.footer-cols{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+font-size: 14px;
+}
+
+.footer-cold ul li{
+    color: white;
+}
+
+.footer-bottom{
+    background-color: #143f85;
+    text-align: center;
+}
+
+

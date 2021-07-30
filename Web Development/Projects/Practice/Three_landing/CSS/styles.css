@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* background: #eaeaea;
+    color: #333; */
+}
+
+header {
+    background: rgb(126, 88, 88) url(../img/matrix-1735640_1920.jpg) no-repeat fixed center;
+    background-size: cover;
+    padding-bottom: 90px;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding: 90px 0px 20px 0px;
+    font-size: 40px;
+}
+
+header div {
+    padding: 30px 226px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+header button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.5em 3em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
+
+header button:hover{
+    color: #333;
+    background: #fff;
+}
+
+.div-1,.div-3{
+    background: #eaeaea;
+    color: #333;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.asd{
+    display: flex;
+}
+
+.asd p{
+    padding: 6px 50px;
+    padding-bottom: 20px;
+}
+
+.grid-2 , .grid-4{
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+
+.div-2{
+    font-size: 1.1em;
+    background-color: #333;
+    padding: 2em 1em 2em;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    grid-column: 2/4;
+}
+
+li{
+    width: 31%;
+}
+
+.card{
+    background-color: #eaeaea;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 1.5em;
+}
+
+.card-content p{
+    padding: 1em;
+    line-height: 1.4;
+    letter-spacing: 0.146em;
+    font-size: 19px;
+    font-style: normal;
+}
+
+.div-3{
+    background-color: white;
+}
+
+h3,h2{
+    padding: 1em;
+}
+
+p{
+    padding: 1em 4em;
+    font-size: 18px;
+line-height: 1.6;
+letter-spacing: 0.066em;
+}
+
+.div-3 p{
+    text-align: center;
+    padding: 15px 50px;
+}
+
+.box{
+    grid-column: span 2;
+}
+
+.div-4 .box{
+    background: #333;
+    color: #fff;
+}
+
+.div-4 .box:first-child{
+    background: #2690d4;
+}
+
+#email{
+    text-align: center;
+}
+
+footer{
+    padding:2em 0.4em;
+background: #000;
+color: #fff;
+text-align: center;
+}
+
+footer div{
+    grid-column: span 2;
+    font-size: 26px;
+    line-height: 1.6;
+    letter-spacing: 0.048em;
+}
+
+
+footer a{
+    color: #2690d4;
+    text-decoration: none;
+}

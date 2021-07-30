@@ -1,0 +1,51 @@
+@media only screen and (Max-width:800px) {
+
+    header{
+        padding-bottom: 0px;
+    }
+    
+    header h1{
+        padding: 50px;
+    }
+
+    header div{
+        padding: 4px 38px;
+    }
+
+    header button{
+        margin: 50px;
+    }
+
+    .asd{
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul{
+        display: inline-block;
+    }
+
+    li{
+        width: 90vw;
+        margin: 20px 0px;
+        padding: 0px 2px;
+    }
+
+    .div-4 .box{
+        grid-column: span 4;
+    }
+
+    .box{
+        width: 100vw;
+    }
+
+    .box p{
+        padding-top: 0.8px;
+    }
+
+    footer div{
+        width: 100vw;
+        grid-column: span 4;
+    }
+    
+}

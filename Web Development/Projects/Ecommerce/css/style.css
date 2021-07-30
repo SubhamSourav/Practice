@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+header {
+    background-color: rgb(50, 172, 121);
+    border: 0.5px solid gray;
+    height: 72px;
+}
+
+/* navbar */
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 20vw;
+    height: 4vw;
+    padding: 4px 20px;
+}
+
+nav ul {
+    /* height: 11vh; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0px 25px;
+    list-style: none;
+    font-size: 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Newsreader', serif;
+}
+
+nav ul li a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    padding: 0 16px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+}
+
+.search input {
+    height: 29px;
+    width: 351px;
+    padding: 0px 0px 0px 20px;
+    margin: 19px 19px;
+    border-radius: 5px;
+}
+
+.container {
+    min-height: calc(100vh - 72px - 10vh);
+}
+
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+}
+
+.card{
+    /* background-color: blueviolet; */
+        max-width: 90vw;
+        margin: auto;
+}
+
+.card h2{
+    font-family: cursive;
+}
+
+.card-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: -12px;
+    /* margin: 0px 48px; */
+}
+
+.card-items div{
+    margin: 25px;
+}
+
+footer {
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(50, 172, 121);
+}
